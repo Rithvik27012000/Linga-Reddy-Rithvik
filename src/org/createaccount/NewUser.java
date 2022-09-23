@@ -2,8 +2,6 @@ package org.createaccount;
 
 
 public class NewUser {
-
-	
 	public static void main(String[] args) {
 	
 		String s = "Hello world";
@@ -88,6 +86,7 @@ public class NewUser {
 		int compareTo = s.compareTo(s1);
 		System.out.println(compareTo);
 		
-		
+		String Substring3 = s.substring(3, 8);
+		System.out.println(substring3);
 	}
 	}
