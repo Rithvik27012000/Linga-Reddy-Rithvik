@@ -2,8 +2,6 @@ package org.createaccount;
 
 
 public class NewUser {
-
-	
 	public static void main(String[] args) {
 	
 		String s = "Hello world";
@@ -14,8 +12,10 @@ public class NewUser {
 		
 		int length = s.length();
 		System.out.println(length);
+		System.out.println("Branch-1");
+		System.out.println("Making changes");
+		System.out.println("To check conflict");
 		System.out.println("Branch 2 making changes");
-		
 		//To upper case
 		String upperCase = s.toUpperCase();
 		System.out.println(upperCase);
@@ -89,6 +89,7 @@ public class NewUser {
 		int compareTo = s.compareTo(s1);
 		System.out.println(compareTo);
 		
-		
+		String Substring3 = s.substring(3, 8);
+		System.out.println(substring3);
 	}
 	}
