@@ -12,7 +12,9 @@ public class NewUser {
 		
 		int length = s.length();
 		System.out.println(length);
-		
+		System.out.println("Branch-1");
+		System.out.println("Making changes");
+		System.out.println("To check conflict");
 		//To upper case
 		String upperCase = s.toUpperCase();
 		System.out.println(upperCase);
