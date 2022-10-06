@@ -14,6 +14,7 @@ public class NewUser {
 		
 		int length = s.length();
 		System.out.println(length);
+		System.out.println("Branch 2 making changes");
 		
 		//To upper case
 		String upperCase = s.toUpperCase();
