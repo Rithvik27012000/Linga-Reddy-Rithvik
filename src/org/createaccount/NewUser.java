@@ -15,6 +15,7 @@ public class NewUser {
 		System.out.println("Branch-1");
 		System.out.println("Making changes");
 		System.out.println("To check conflict");
+		System.out.println("Branch 2 making changes");
 		//To upper case
 		String upperCase = s.toUpperCase();
 		System.out.println(upperCase);
